@@ -1,0 +1,7 @@
+/* Arquivo de normalização do CSS */
+@import url(../vendor/normalize.css);
+
+/*Importação arquivos bases do CSS*/
+@import url(../blocks/root/root.css);
+/*ver o que fazer com o bloco pages, q no primeiro projeto setava a largura maxima e minima da pagina */
+
