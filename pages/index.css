@@ -3,5 +3,25 @@
 
 /*Importação arquivos bases do CSS*/
 @import url(../blocks/root/root.css);
-/*ver o que fazer com o bloco pages, q no primeiro projeto setava a largura maxima e minima da pagina */
+@import url(../blocks/page/page.css);
+
+/*arquivos com os css das fontes*/
+@import url(../fonts/Inter\ Web/inter.css);
+
+/*Bloco header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/logo-place-header/logo-place-header.css);
+
+/*Bloco lead*/
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+
+/*Bloco Intro */ 
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__text/_author/intro__text_author.css);
+@import url(../blocks/intro/__text/_main-text/intro__text_main-text.css);
 

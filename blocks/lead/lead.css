@@ -1,0 +1,5 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* faz o alinhamento central devido ser column e quero alinhar no cross axis */
+}
