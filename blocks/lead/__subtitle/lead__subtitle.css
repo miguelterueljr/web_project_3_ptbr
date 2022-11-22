@@ -3,10 +3,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   /* or 120% */
   text-align: center;
   color: #FFFFFF;
-  width: 720px;
-  height: 72px;
+  max-width: 720px; /* se colocar max ele fica responsivo */
+  max-height: 72px;
 }
+

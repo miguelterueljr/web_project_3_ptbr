@@ -1,5 +1,11 @@
 .lead__image {
-  width: 984px;
-  height: 615;
+  width: 77%; /* usar meidas relativas para site se adaptar, mesmo sem as media querys*/
   margin-top: 64px;
 }
+
+@media screen and (max-width: 770px) {
+  .lead__image {
+    width: 100%; 
+  }
+}
+

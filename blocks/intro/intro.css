@@ -1,8 +1,7 @@
 .intro {
+  max-width: 79.45%; /* porcentagem em relação as dimensoes do site que é de 1280px */
   margin-top: 76px;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  width: 1017px;
-  height: 516;
+  row-gap: 40px;
 }

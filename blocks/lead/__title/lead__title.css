@@ -4,11 +4,16 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 104%;
+  line-height: 1.04;
   /* or 100px */
   text-align: center;
-  width: 793px;
-  height: 200px;
+  max-width: 793px; /* se colocar max ele fica responsivo */
+  max-height: 200px; 
   margin-bottom: 32px;
-
+  
 }
+
+
+
+
+
