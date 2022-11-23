@@ -1,0 +1,5 @@
+/* Diminuir o espacamento entre os dois paragrafos devido o row gap aplciar a todos as linhas */
+
+.place__paragraph_spacing {
+  margin-top: -25px;
+}

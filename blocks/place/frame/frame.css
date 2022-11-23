@@ -1,0 +1,9 @@
+.frame {
+  width: 355px;
+  height: 48px;
+  background-color: #0278FE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4%;
+}

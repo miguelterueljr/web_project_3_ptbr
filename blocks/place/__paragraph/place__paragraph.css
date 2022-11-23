@@ -1,0 +1,13 @@
+.place__paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+  color: #FFFFFF;
+
+  /* posiciona elemento no meu grid*/
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
