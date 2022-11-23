@@ -1,0 +1,67 @@
+.place {
+  border: 1px solid yellow;
+
+
+}
+
+.place__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
+  color: #FFFFFF;
+  width: 460px;
+  height: 152px;
+}
+
+.place__image {
+  width: 460px;
+  height: 460px;
+}
+
+.place__website {
+
+}
+
+.place__url-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #AAAAAA;
+}
+
+.place__artist {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  color: #FFFFFF;
+}
+
+.place__paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+  color: #FFFFFF;
+}
+
+.frame-6 {
+  width: 355px;
+  height: 48px;
+  background-color: #0278FE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

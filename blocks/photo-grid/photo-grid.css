@@ -1,8 +1,7 @@
 .photo-grid {
   margin-top: 92px;
-  border: 1px solid yellow;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 16px;
+  gap: 16px; /* propriedade grid-gap foi descontinuiada com a entrada do css3 */
 
 }
