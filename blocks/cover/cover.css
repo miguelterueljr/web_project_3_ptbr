@@ -1,0 +1,11 @@
+.cover {
+  border: 1px solid yellow;
+  width: 92.5%;
+  height: 740px;
+  margin-top: 92px;
+  background-image: url(../../images/__background.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

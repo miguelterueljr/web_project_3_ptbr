@@ -1,7 +1,13 @@
 .photo-grid {
-  margin-top: 92px;
+  /*margin-top: 92px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 16px; /* propriedade grid-gap foi descontinuiada com a entrada do css3 */
+  /*max-width: 92.5%;*/
 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 92px;
 }

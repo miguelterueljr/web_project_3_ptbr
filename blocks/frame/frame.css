@@ -7,9 +7,6 @@
   justify-content: center;
   border-radius: 4%;
 
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-area: frame;
 
-  grid-row-start: 4;
-  grid-row-end: 5;
 }

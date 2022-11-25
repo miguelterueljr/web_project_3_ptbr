@@ -1,11 +1,11 @@
-.place__paragraph {
+.group__subtitle {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
-  /* or 29px */
+  line-height: 22px;
+  /* or 122% */
+  text-align: center;
   color: #FFFFFF;
-
-  grid-area: texto;
+  width: 280px;
 }
