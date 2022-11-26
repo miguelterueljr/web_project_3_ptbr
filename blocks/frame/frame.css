@@ -10,3 +10,7 @@
   grid-area: frame;
 
 }
+
+.frame:hover {
+  cursor: url(../../images/__cursor.cur), auto; /* segundo documentacao o valor padrao como fallback(auto) deve ser fornecido, não vai funcionar sem */
+}

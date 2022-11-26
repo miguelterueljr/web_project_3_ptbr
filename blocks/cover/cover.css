@@ -1,11 +1,34 @@
 .cover {
-  border: 1px solid yellow;
+  
   width: 92.5%;
   height: 740px;
   margin-top: 92px;
-  background-image: url(../../images/__background.png);
+  /*se eu usar o background image aqui nao consigo fazer o hover e deixar opaco so a imagem, ele deixa o bloco todo. por isso cliei um pseudo elemento before e apliquei a imagem nele*/
+  /*background-image: url(../../images/__background.png);*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  position: relative;
 }
+
+/* ao inves de setar a imagem para o bloco, setei em um pseudo elemento ::before com um posicionamento absoluto em cima do bloco para que ficasse por cima */
+.cover::before {
+  background-image: url(../../images/__background.png);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+}
+
+/*Aqui apliquei o hover para o elemento ::before e nao ao bloco no estado atual*/
+/*poderia usar um after em outro caso como .cover:hover::after */
+/* Nivel de difulcade grande */
+.cover:hover::before {
+  opacity: .5;
+}
+
+
