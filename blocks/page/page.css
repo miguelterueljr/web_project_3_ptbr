@@ -1,6 +1,3 @@
-body {
-    width: 100%;
-}
 
 .page {
    
@@ -11,5 +8,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    /* essa propriedade faz com que nao vaze conteudo, antes dela era cirado uma barra lateral em branco e quebrava a linha*/
+    overflow-x: hidden;
     
 }
+
+
