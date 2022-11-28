@@ -9,8 +9,10 @@
     align-items: center;
     justify-content: center;
 
-    /* essa propriedade faz com que nao vaze conteudo, antes dela era cirado uma barra lateral em branco e quebrava a linha*/
-    overflow-x: hidden;
+    /* essa propriedade faz com que nao vaze conteudo, antes dela era cirado uma barra lateral em branco e quebrava a linha na horizontal*/
+    overflow: hidden;
+    
+
     
 }
 
