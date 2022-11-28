@@ -8,3 +8,10 @@
   color: #FFFFFF;
   max-width: 720px;
 }
+
+@media screen and (max-width:700px) {
+  .intro__text {
+    line-height: 34px;
+  }
+  
+}
