@@ -11,3 +11,11 @@
 
   
 }
+
+@media screen and (min-width: 320px)  and (max-width: 767px) {
+  .group__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+}

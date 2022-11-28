@@ -23,6 +23,16 @@
   }
 }
 
+/* aqui aplico pra acabar com o grid e transformar em flex collumn, */
+@media screen and (min-width: 320px)  and (max-width: 767px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+}
+
 
 
 

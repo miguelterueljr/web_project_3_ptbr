@@ -13,5 +13,12 @@
  }
 }
 
+@media screen and (min-width: 320px)  and (max-width: 767px) {
+  .intro {
+    margin-top: 44px;
+    row-gap: 34px;
+  }
+
+}
 
 
