@@ -1,6 +1,19 @@
 .place__website {
-  align-self: start;
+  /* faz com que somente esse item tenha seu alinhamento ao final do containter*/
+  align-self: end;
 
   grid-area: website;
+
+
+}
+
+@media screen and (min-width: 320px)  and (max-width: 767px) {
+
+  .place__website {
+
+    /*faz com que somente esse item tenha alinhamento no começo do container*/
+    align-self: start;
+  }
+
 }
 

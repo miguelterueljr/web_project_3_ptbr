@@ -1,12 +1,17 @@
 .intro__text_author {
   text-align: right;
-  margin-top: -42px;
+
+ 
 }
 
 @media screen and (min-width: 320px)  and (max-width: 767px) {
   .intro__text_author {
-    margin-top: -22px;
+    margin-top: 10px;
   }
 
 }
+
+
+
+
 

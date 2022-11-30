@@ -6,7 +6,7 @@
 @import url(../blocks/page/page.css);
 
 /*arquivos com os css das fontes*/
-@import url(../fonts/Inter\ Web/inter.css);
+@import url(../fonts/Inter-Web/inter.css);
 
 /*Bloco header*/
 @import url(../blocks/header/header.css);
@@ -24,6 +24,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__text/_author/intro__text_author.css);
 @import url(../blocks/intro/__text/_main-text/intro__text_main_text.css);
+@import url(../blocks/intro/__brief/intro__brief.css);
 
 /*Bloco photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -40,9 +41,7 @@
 @import url(../blocks/place/__artist/place__artist.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__paragraph/_spacing/place__paragraph_spacing.css);
 @import url(../blocks/frame/frame.css);
-@import url(../blocks/place/frame/__paragraph/frame__paragraph.css);
 
 /*frames - botões Azuis */
 @import url(../blocks/frame/frame.css);
